@@ -118,7 +118,7 @@ def replace_last_string(string, find, replace):
 def main():
     #create_db()
 
-    for pageNumber in range(100, 101):
+    for pageNumber in range(1, 100):
         currentData = {}
 
         r = requests.get(f'https://www.goodreads.com/quotes/tag/philosophy?page={pageNumber}')
